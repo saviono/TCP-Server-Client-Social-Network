@@ -5,10 +5,8 @@ To Run The Server:
 1) open spl-net folder	
 2) open terminal
 3) mvn clean compile
-
 4) TPC:
 mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.BGSServer.TPCMain" -Dexec.args="7777"
-
 4) Reactor:
 mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.BGSServer.ReactorMain" -Dexec.args="7777 4"
 
