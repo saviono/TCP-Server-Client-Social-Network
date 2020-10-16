@@ -1,34 +1,33 @@
 # TCP-Server-Client-Social-Network
-Supports Reactor &amp; Thread-Per-Client design patterns using Generics, includes Socket Programming &amp; Encoder-Decoder implementation.
+Supports Reactor & Thread-Per-Client design patterns using Generics, includes Socket Programming &amp; Encoder-Decoder implementation.
 
 To Run The Server:
+1) open spl-net folder	
+2) open terminal
+3) mvn clean compile
 
-open spl-net folder
-open terminal
-mvn clean compile
-
-TPC:
+4.1) TPC:
 mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.BGSServer.TPCMain" -Dexec.args="7777"
 
-Reactor:
+4.2) Reactor:
 mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.BGSServer.ReactorMain" -Dexec.args="7777 4"
 
 To Run a Client:
 
-open Boost_Echo_Client
-open terminal
-make
-cd bin
-./BGSclient 127.0.0.1 7777
+5) open Boost_Echo_Client
+6) open terminal
+7) make
+8) cd bin
+9) ./BGSclient 127.0.0.1 7777
 
 Supported Commands:
 
-REGISTER <User Name> <Password>
-LOGIN <User Name> <Password>
-LOGOUT
-USERLIST
-STAT <User Name>
-POST <Message>
-PM <User Name> <Message>
-FOLLOW 0 <Num of users to follow> <USERLIST>
-FOLLOW 1 <Num of users to unfollow> <USERLIST>
+1) REGISTER <User Name> <Password>
+2) LOGIN <User Name> <Password>
+3) LOGOUT
+4) USERLIST
+5) STAT <User Name>
+6) POST <Message>
+7) PM <User Name> <Message>
+8) FOLLOW 0 <Num of users to follow> <USERLIST>
+9) FOLLOW 1 <Num of users to unfollow> <USERLIST>
