@@ -1,8 +1,6 @@
 # TCP-Server-Client-Social-Network
 Supports Reactor &amp; Thread-Per-Client design patterns using Generics, includes Socket Programming &amp; Encoder-Decoder implementation.
 
-Supports Reactor & Thread-Per-Client design patterns using Generics, includes Socket Programming & Encoder-Decoder implementation.
-
 To Run The Server:
 
 open spl-net folder
