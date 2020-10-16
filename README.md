@@ -6,10 +6,10 @@ To Run The Server:
 2) open terminal
 3) mvn clean compile
 
-4.1) TPC:
+4) TPC:
 mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.BGSServer.TPCMain" -Dexec.args="7777"
 
-4.2) Reactor:
+4) Reactor:
 mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.BGSServer.ReactorMain" -Dexec.args="7777 4"
 
 To Run a Client:
