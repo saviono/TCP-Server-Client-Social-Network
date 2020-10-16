@@ -14,11 +14,11 @@ mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.BGSServer.ReactorMain" -Dexec.a
 
 To Run a Client:
 
-5) open Boost_Echo_Client
-6) open terminal
-7) make
-8) cd bin
-9) ./BGSclient 127.0.0.1 7777
+1) open Boost_Echo_Client
+2) open terminal
+3) make
+4) cd bin
+5) ./BGSclient 127.0.0.1 7777
 
 Supported Commands:
 
